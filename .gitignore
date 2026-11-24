@@ -1,0 +1,34 @@
+# Ambiente e Segredos (NUNCA versionar)
+.env
+.env.*
+!.env.example
+
+# Sessões do Telethon (contêm chaves de autenticação do Telegram)
+*.session
+*.session-journal
+
+# Banco de dados local de usuários e biblioteca
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários de download, OCR e conversão
+temp_*
+ocr_*
+converted_*
+*.tmp.epub
+*.epub
+*.mobi
+*.azw
+*.azw3
+
+# Ambiente Virtual Python e Cache
+venv/
+.venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
